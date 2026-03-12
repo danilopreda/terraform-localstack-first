@@ -1,0 +1,7 @@
+resource "aws_s3_bucket" "meu_bucket_local" {
+  bucket = "bucket-de-teste"
+}
+
+resource "aws_sqs_queue" "minha_fila_local" {
+  name = "fila-de-mensagens"
+}
