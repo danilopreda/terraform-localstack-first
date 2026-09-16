@@ -9,7 +9,7 @@ terraform {
 }
 
 resource "aws_s3_bucket" "meu_bucket_local" {
-  bucket = "bucket-de-teste"
+  bucket = "bucket-de-teste-modify"
 }
 
 resource "aws_sqs_queue" "minha_fila_local" {
